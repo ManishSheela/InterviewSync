@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Nunito:wght@400;500;700&display=swap');
+
+
+.gradientText {
+  background: var(--gradient-color);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainWrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 230px 1fr 300px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.left-side-bar {
+  background-color: var(--primary-color);
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logoImage {
+  height: 39px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.username {
+  font-size: 14px;
+}
+
+/* Editor css start  */
+.editorWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.editor-header,
+.editor,
+.editor-footer {
+  padding: 15px 25px;
+}
+
+.editor-header {
+  border-left: 2px solid var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
+}
+
+.editor {
+  background-color: var(--secondary-color);
+  border: none;
+}
+.editor-footer {
+  border-left: 2px solid var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 150px);
+  font-size: 14.5px;
+  line-height: 2;
+  padding: 10px 10px;
+  letter-spacing: 1px;
+  /* font-family: 'Anuphan', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+}
+div.CodeMirror-vscrollbar::-webkit-scrollbar {
+  display: none;
+}
+.cm-s-dracula .CodeMirror-linenumber {
+  color: var(--gradient-color) !important;
+}
+
+.CodeMirror::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,18 @@
+:root {
+  /* --primary-color: #0D0B33;
+  --secondary-color: #19183C; */
+  --primary-color: #1c1e29;
+  --secondary-color: #282a36;
+  --first-color: #4aed88;
+  --second-color: rgb(0, 161, 255);
+  --gradient-color: linear-gradient(to right, rgb(0, 255, 143) 0%, rgb(0, 161, 255) 100%);
+  --gradient-hover-color: linear-gradient(to right, rgb(0, 255, 143) 80%, rgb(0, 161, 255) 100%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--primary-color);
+}
